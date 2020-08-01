@@ -1,31 +1,38 @@
+/* 
+Name: Vandit Parekh
+Student No.: 200412374
+*/
+/*Adding some styles to the whole css*/
 *{
     margin: auto;
     background-color: bisque;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/*Specific styles to header and footer to bring the content between the screen*/
 header, footer
 {
     text-align: center;
     font-size: small;
 }
-
+//
 .addItem, .completedItem
 {
     padding: 50px;
     margin: 20px;
     background-color: antiquewhite;
 }
+/*Adding some universal styles to label*/
 label{
     cursor: pointer;
     font-size: 25px;
     padding: 10px;
     margin: auto;
 }
+/*Adding some universal styles to input*/
 input{
     cursor: pointer;
 }
-
+/*Adding some universal styles to button*/
 button{
     position: relative;
     margin: 10px;
@@ -35,7 +42,9 @@ button{
     background-color: aqua;
     border-radius: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
+/*Styling the area where the user inputs and submits a ToDo*/
 .mainList
 {
     background-color: aliceblue;
@@ -43,7 +52,7 @@ button{
     margin: 20px;
     align-items: center;
 }
-
+/*Making the text input a little bigger and some other minor modifications*/
 #inputText
 {
     padding: 20px;
@@ -55,7 +64,7 @@ button{
     border: none;
 
 }
-
+/*Configuring the submit button to make it stand out*/
 #submitButton
 {
     text-align: center;
