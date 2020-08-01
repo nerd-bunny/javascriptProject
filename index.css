@@ -1,22 +1,41 @@
 *{
     margin: auto;
     background-color: bisque;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header, footer
 {
     text-align: center;
     font-size: small;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .addItem, .completedItem
 {
-    padding: 150px;
+    padding: 50px;
     margin: 20px;
     background-color: antiquewhite;
 }
+label{
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px;
+    margin: auto;
+}
+input{
+    cursor: pointer;
+}
 
+button{
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 10px;
+    font-weight: bold;
+}
 .mainList
 {
     background-color: aliceblue;
@@ -29,7 +48,6 @@ header, footer
 {
     padding: 20px;
     margin: 20px;
-    margin-left: 80px;
     background-color: black ;
     text-align: center;
     color: aliceblue;
@@ -41,7 +59,6 @@ header, footer
 #submitButton
 {
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     font-weight: bold;
     color: aqua;
