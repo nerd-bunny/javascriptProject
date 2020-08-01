@@ -1,0 +1,53 @@
+*{
+    margin: auto;
+    background-color: bisque;
+}
+
+header, footer
+{
+    text-align: center;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.addItem, .completedItem
+{
+    padding: 150px;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+
+.mainList
+{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+}
+
+#inputText
+{
+    padding: 20px;
+    margin: 20px;
+    margin-left: 80px;
+    background-color: black ;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+
+}
+
+#submitButton
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: aqua;
+    background-color: brown;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    border-color: white;
+}
