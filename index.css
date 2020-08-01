@@ -14,7 +14,7 @@ header, footer
     text-align: center;
     font-size: small;
 }
-//
+/*Configuring the divisions for the ToDo's*/
 .addItem, .completedItem
 {
     padding: 50px;
